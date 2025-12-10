@@ -665,7 +665,7 @@ elif selected == "About Dataset":
         "Select any class to see disease details and prevention steps."
     )
 
-    DATASET_PATH = Path("dataset")  # or your actual path as before
+    DATASET_PATH = Path("Dataset")  # or your actual path as before
 
     if DATASET_PATH.exists():
         class_folders = sorted([f.name for f in DATASET_PATH.iterdir() if f.is_dir()])
